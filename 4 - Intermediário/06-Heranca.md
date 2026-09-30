@@ -2,7 +2,7 @@
 
 Quando você cria uma classe, você pode fazer com que ela herde os atributos e métodos de outra classe. Esse processo é chamado de herança. A classe que herda é chamada de subclasse e a classe de onde ela herda é chamada de superclasse. Para herdar de uma classe, use a palavra-chave `extends` depois do nome da subclasse e o nome da superclasse.
 
-No exemplo abaixo temos uma classe `Animal` que possue um método `comer()` e uma classe `Cachorro` que herda de `Animal` e possue um método `latir()`. Quando criamos um objeto do tipo `Cachorro` podemos acessar os métodos tanto de `Animal` e `Cachorro`, afinal o `Cachorro` herda de `Animal`.
+No exemplo abaixo temos uma classe `Animal` que possui um método `comer()` e uma classe `Cachorro` que herda de `Animal` e possui um método `latir()`. Quando criamos um objeto do tipo `Cachorro` podemos acessar os métodos tanto de `Animal` e `Cachorro`, afinal o `Cachorro` herda de `Animal`.
 
 ```java
 class Animal {
